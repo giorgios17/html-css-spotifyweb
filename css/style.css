@@ -1,7 +1,13 @@
+/* GENERIC */
+
 *{
     box-sizing: border-box;
     margin: 0;
 padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .big-container{
@@ -10,8 +16,17 @@ padding: 0;
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+    color: #606060;
+}
+
+
 /* UTLITY */
 
+.clr-white{
+    color: white;
+}
 
 /* MAIN */
 
@@ -27,12 +42,13 @@ nav{
     background-color: black;
     display: flex;
     flex-direction: column;
-    color: #606060;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 20px 20px 5px 20px;
 }
 
-.nav-button{
-    margin: 20px 0px;
+
+.nav-button > *{
+    margin: 10px 0px;
 }
 
 .logo{
@@ -41,14 +57,44 @@ nav{
 
 .nav-button img{
     width: 30px;
+    color: #606060;
+    vertical-align: middle;
+}
+
+/* PLAYLIST */
+
+.playlist{
+    margin-top: 15px;
 }
 
 .playlist ul li{
     list-style-type: none;
     margin: 15px 0;
+    font-size: 0.8rem;
 }
 
+#create-playlist{
+    font-size: 1rem;
+}
 
+/* DOWNLOAD AND USER PROFILE */
+
+.download{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #404040;
+    margin-bottom: 20px;
+}
+
+.download img{
+    width: 12px;
+}
+
+.user-profile img{
+    width: 25px;
+    background-color:#808080;
+    border-radius: 50%;
+    vertical-align: middle;
+}
 
 /* CONTENT */
 
@@ -69,4 +115,9 @@ nav{
 footer{
     height: 10%;
     background-color: aqua;
+}
+
+/* HOVER */
+a:hover{
+    color: white;
 }
