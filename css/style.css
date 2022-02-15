@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+padding: 0;
+}
+
+.big-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    height: 90%;
+    display: flex;
+}
+
+nav{
+    width: 10%;
+    background-color: green;
+}
+.content{
+    background-color: brown;
+    width: 90%;
+    overflow-y:auto;
+}
+
+.header-fixed{
+    height: 10%;
+    background-color: rgba(0,0,0,0.5);
+   
+}
+
+footer{
+    height: 10%;
+    background-color: aqua;
+}
