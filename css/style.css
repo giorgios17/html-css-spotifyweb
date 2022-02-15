@@ -347,6 +347,6 @@ a:hover{
     transform: scale(1.2);
 }
 
-.songname a:hover{
+#songname a:hover{
     text-decoration: underline;
 }
