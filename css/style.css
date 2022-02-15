@@ -135,13 +135,17 @@ footer{
     justify-content: space-between;
 }
 
-.left-item{
+/* left side */
+
+.left-item,
+.right-item{
     display: flex;
     padding: 20px 10px;
     align-items: center;
 }
 
-.left-item > *{
+.left-item > *,
+.right-item > *{
     margin: 0px 10px;
 }
 
@@ -149,7 +153,49 @@ footer{
     width: 50px;
 }
 
+/* right side */
+
+.right-item{
+    color: white;
+}
+
+.volume{
+    width: 150px;
+    height: 4px;
+    background-color: #5a5a5a;
+    border-radius: 10px;
+}
+
+.volume-stats{
+    position: relative;
+    width: 50px;
+    height: 4px;
+    background-color: #c1c1c1;
+    border-radius: 10px;
+}
+
+.pointer{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: none;
+}
+
+
+
 /* HOVER */
 a:hover{
     color: white;
+}
+
+.volume:hover .volume-stats{
+    background-color: lightgreen;
+}
+
+.volume:hover .pointer{
+    display: block;
 }
