@@ -39,6 +39,30 @@ main{
     display: flex;
 }
 
+/* upgrade section */
+
+.upgrade{
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: right;
+    position: fixed;
+    width: calc(100% - 230px);
+   }
+
+.upgrade-btn a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    line-height: 100px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.upgrade-btn:hover a{
+    font-size: 1.2rem;
+}
+
 /* NAV */
 
 nav{
@@ -180,28 +204,6 @@ nav{
     color: white;
     font-size: 70px;
     display: none;
-}
-
-
-
-/* upgrade section */
-
-.upgrade{
-    height: 100px;
-    background-color: rgba(0,0,0,0.5);
-    text-align: right;
-    position: fixed;
-    width: calc(100% - 230px);
-   }
-
-.upgrade-btn a{
-    color: white;
-    border: 1px solid white;
-    border-radius: 30px;
-    padding: 15px 30px;
-    line-height: 100px;
-    vertical-align: middle;
-    margin-right: 30px;
 }
 
 /* FOOTER */
