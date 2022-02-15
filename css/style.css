@@ -104,6 +104,32 @@ nav{
     overflow-y:auto;
 }
 
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+header li a{
+    position: relative;
+    margin: 0px 15px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+header li #evidence:after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: 30px;
+  border-bottom: 2px solid #9ae22d;
+}
+
+
+
 /* upgrade section */
 
 .upgrade{
