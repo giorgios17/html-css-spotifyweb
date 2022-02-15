@@ -54,14 +54,10 @@ main{
     border: 1px solid white;
     border-radius: 30px;
     padding: 15px 30px;
-    line-height: 100px;
-    vertical-align: middle;
-    margin-right: 30px;
+    margin: 20px 30px;
+    display: inline-block;
 }
 
-.upgrade-btn:hover a{
-    font-size: 1.2rem;
-}
 
 /* NAV */
 
@@ -350,6 +346,9 @@ a:hover{
     display:block;
 }
 
+.upgrade-btn:hover a{
+    transform: scale(1.2);
+}
 
 
 
