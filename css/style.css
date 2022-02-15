@@ -47,6 +47,7 @@ main{
     text-align: right;
     position: fixed;
     width: calc(100% - 230px);
+    z-index: 50;
    }
 
 .upgrade-btn a{
@@ -334,10 +335,6 @@ a:hover{
     display: block;
 }
 
-#songname:hover #songname a{
-    text-decoration: underline;
-}
-
 .album-img:hover img{
     opacity: 0.5;
 }
@@ -349,6 +346,7 @@ a:hover{
 .upgrade-btn:hover a{
     transform: scale(1.2);
 }
+
 
 
 
