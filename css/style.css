@@ -28,6 +28,10 @@ a{
     color: white;
 }
 
+.m-btm-30{
+    margin-bottom: 30px;
+}
+
 /* MAIN */
 
 main{
@@ -104,7 +108,11 @@ nav{
     overflow-y:auto;
 }
 
-/* header */
+.main-content{
+    padding: 20px;
+}
+
+/* category */
 
 .category ul{
     display: flex;
@@ -128,6 +136,37 @@ nav{
   bottom: -5px;
   width: 30px;
   border-bottom: 2px solid #9ae22d;
+}
+
+/* song container */
+
+.song-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.brano{
+    width: calc(100% / 6);
+    text-align: center;
+    margin-right: 15px;
+}
+
+.brano img{
+    width: 100%;
+}
+
+.song-container p{
+    color: #606060;
+    font-weight: 600;
+}
+
+/* recently played */
+
+.recently-played,
+.createforyou,
+.popular-artist{
+    display: flex;
+    margin-bottom: 45px;
 }
 
 
