@@ -161,13 +161,25 @@ nav{
     font-weight: 600;
 }
 
-/* recently played */
-
 .recently-played,
 .createforyou,
 .popular-artist{
     display: flex;
     margin-bottom: 45px;
+}
+
+.album-img{
+    position: relative;
+}
+
+.play-song{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    display: none;
 }
 
 
@@ -265,7 +277,7 @@ footer{
     border-radius: 10px;
 }
 
-.fa-play-circle{
+footer .fa-play-circle{
     font-size: 30px;
 }
 
@@ -326,4 +338,12 @@ a:hover{
 
 #songname:hover #songname a{
     text-decoration: underline;
+}
+
+.song-container img:hover{
+    opacity: 0.5;
+}
+
+.song-container img:hover .play-song{
+    display:block;
 }
