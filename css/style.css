@@ -135,6 +135,20 @@ footer{
     justify-content: space-between;
 }
 
+.left-item{
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.left-item > *{
+    margin: 0px 10px;
+}
+
+.left-item img{
+    width: 50px;
+}
+
 /* HOVER */
 a:hover{
     color: white;
