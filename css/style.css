@@ -104,21 +104,23 @@ nav{
     overflow-y:auto;
 }
 
-header ul{
+/* header */
+
+.category ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
     margin-top: 20px;
 }
 
-header li a{
+.category li a{
     position: relative;
     margin: 0px 15px;
     font-size: 0.8rem;
     font-weight: 700;
 }
 
-header li #evidence:after{
+.category li #evidence:after{
   content: "";
   position: absolute;
   left: 50%;
