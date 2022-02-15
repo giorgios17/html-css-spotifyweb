@@ -340,10 +340,15 @@ a:hover{
     text-decoration: underline;
 }
 
-.song-container img:hover{
+.album-img:hover img{
     opacity: 0.5;
 }
 
-.song-container img:hover .play-song{
+.album-img:hover .play-song{
     display:block;
 }
+
+
+
+
+
