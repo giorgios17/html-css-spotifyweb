@@ -133,6 +133,7 @@ footer{
 .player{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* left side */
@@ -152,6 +153,53 @@ footer{
 .left-item img{
     width: 50px;
 }
+
+/* center player*/
+
+.center-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-items{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.upper-items a{
+    color: white;
+    margin: 0px 15px;
+}
+
+.bottom-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.progress-bar{
+    margin: 0px 15px;
+    width: 500px;
+    height: 4px;
+    background-color: #5a5a5a;
+    border-radius: 10px;
+}
+
+.progress-song{
+    position: relative;
+    width: 100px;
+    height: 4px;
+    background-color: #c1c1c1;
+    border-radius: 10px;
+}
+
+.fa-play-circle{
+    font-size: 30px;
+}
+
 
 /* right side */
 
@@ -186,7 +234,6 @@ footer{
 }
 
 
-
 /* HOVER */
 a:hover{
     color: white;
@@ -198,4 +245,16 @@ a:hover{
 
 .volume:hover .pointer{
     display: block;
+}
+
+.progress-bar:hover .progress-song{
+    background-color: lightgreen;
+}
+
+.progress-bar:hover .pointer{
+    display: block;
+}
+
+#songname:hover #songname a{
+    text-decoration: underline;
 }
