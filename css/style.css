@@ -10,26 +10,61 @@ padding: 0;
     flex-direction: column;
 }
 
+/* UTLITY */
+
+
+/* MAIN */
+
 main{
     height: 90%;
     display: flex;
 }
 
+/* NAV */
+
 nav{
-    width: 10%;
-    background-color: green;
+    width: 230px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: #606060;
+    padding: 20px;
 }
+
+.nav-button{
+    margin: 20px 0px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.nav-button img{
+    width: 30px;
+}
+
+.playlist ul li{
+    list-style-type: none;
+    margin: 15px 0;
+}
+
+
+
+/* CONTENT */
+
 .content{
     background-color: brown;
-    width: 90%;
+    width: calc(100% - 230px);
     overflow-y:auto;
 }
 
-.header-fixed{
+.upgrade{
     height: 10%;
     background-color: rgba(0,0,0,0.5);
    
 }
+
+/* FOOTER */
 
 footer{
     height: 10%;
