@@ -127,7 +127,12 @@ nav{
 
 footer{
     height: 10%;
-    background-color: aqua;
+    background-color: #282828;
+}
+
+.player{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* HOVER */
