@@ -1,4 +1,4 @@
-@media  screen and (max-width: 1110px) {
+@media  screen and (max-width: 1200px) {
     .recently-played{
         flex-wrap: wrap;
     }
@@ -6,6 +6,9 @@
         width: calc(100% / 4 - 15px);
     }
 
+    .category ul{
+        flex-wrap: wrap;
+    }
     
 }
 
