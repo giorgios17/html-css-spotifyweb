@@ -241,17 +241,31 @@ footer{
 .left-item,
 .right-item{
     display: flex;
-    padding: 20px 10px;
+    padding: 20px 0px;
     align-items: center;
 }
 
 .left-item > *,
 .right-item > *{
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 
 .left-item img{
-    width: 50px;
+    width: 30px;
+}
+
+.left-item h3,
+.left-item p{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.like-folder{
+    display: flex;
+}
+
+.like-folder > *{
+    margin-right: 10px;
 }
 
 /* center player*/
@@ -260,6 +274,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .upper-items{
@@ -278,12 +293,12 @@ footer{
     justify-content: center;
     align-items: center;
     color: white;
+    width: 100%;
 }
 
 .progress-bar{
-    flex-shrink: 0;
+    width: 50%;
     margin: 0px 15px;
-    width: 400%;
     height: 4px;
     background-color: #5a5a5a;
     border-radius: 10px;
@@ -291,7 +306,7 @@ footer{
 
 .progress-song{
     position: relative;
-    width: 25%;
+    width: 10%;
     height: 4px;
     background-color: #c1c1c1;
     border-radius: 10px;
@@ -305,19 +320,20 @@ footer .fa-play-circle{
 /* right side */
 
 .right-item{
-    color: white;
+     color: white;
     justify-content: flex-end;
+    width: 30%;
 }
 
-.volume{
-    flex-shrink: 0;
-    width: calc(100% - 54px);
+.volume{ 
+    width: 100px;
     height: 4px;
     background-color: #5a5a5a;
     border-radius: 10px;
 }
 
 .volume-stats{
+    width: 20px;
     position: relative;
     width: 20%;
     height: 4px;

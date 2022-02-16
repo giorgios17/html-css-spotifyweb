@@ -24,6 +24,10 @@
         width: calc(100% / 2 - 15px);
     }
 
+    .like-folder{
+        flex-direction: column;
+    }
+
 
 }
 
