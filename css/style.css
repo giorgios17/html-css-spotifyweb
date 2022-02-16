@@ -98,10 +98,20 @@ nav{
 /* playlist */
 
 .playlist{
-    margin-top: 15px;
+    margin: 20px 0px;
 }
 
-.playlist ul li{
+.playlist h3{
+    margin-bottom: 10px;
+}
+
+nav ul{
+    overflow-y: auto;
+    height: 140px;
+    flex-grow: 1;
+}
+
+.nav ul li{
     list-style-type: none;
     margin: 15px 0;
     font-size: 0.8rem;
@@ -109,6 +119,7 @@ nav{
 
 #create-playlist{
     font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 /* download and user profile */
