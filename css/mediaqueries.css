@@ -1,3 +1,6 @@
+
+/* MAX WIDTH 1200PX */
+
 @media  screen and (max-width: 1200px) {
     .recently-played{
         flex-wrap: wrap;
@@ -12,6 +15,9 @@
     
 }
 
+/* MAX WIDTH 768PX */
+
+
 @media screen and (max-width: 768px){
 
     .brano{
@@ -19,4 +25,41 @@
     }
 
 
+}
+
+/* MAX WIDTH 576PX */
+
+
+@media screen and (max-width: 576px){
+
+
+    .content,
+    .upgrade{
+        width: calc(100% - 50px);
+    }
+
+    
+    nav{
+        width: 50px;
+        padding-top: 0;
+    }
+
+    #small-logo{
+        display: block;
+        
+    }
+    
+    .hidden-max-w-576{
+        display: none;
+    }
+
+    .download{
+        border: 0;
+    }
+
+    .bottom-nav, .top-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

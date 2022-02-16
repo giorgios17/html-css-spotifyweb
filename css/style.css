@@ -84,6 +84,11 @@ nav{
     width: 150px;
 }
 
+#small-logo{
+    display: none;
+    width: 30px;
+}
+
 .nav-button img{
     width: 30px;
     color: #606060;
