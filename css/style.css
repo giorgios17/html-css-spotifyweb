@@ -323,6 +323,7 @@ footer .fa-play-circle{
      color: white;
     justify-content: flex-end;
     width: 30%;
+    margin-right: 15px;
 }
 
 .volume{ 
